@@ -1,0 +1,9 @@
+.carousel-item img {
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    height: 100%;     /* Opcional: establece una altura fija */
+    max-height: 500px; /* Por ejemplo, puedes limitar la altura */
+  }
+
+  .carousel-inner {
+    height: 500px; /* Ajusta la altura del slider si es necesario */
+  }

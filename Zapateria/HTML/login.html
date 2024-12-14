@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script>
+    function handleLogin(event) {
+      event.preventDefault(); // Evita que el formulario se envíe y recargue la página.
+
+      // Obtén los valores del formulario.
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Validación básica (puedes reemplazar esto con lógica real).
+      if (username === "admin" && password === "1234") {
+        alert("Login exitoso");
+        // Redirige al usuario a otra página.
+        window.location.href = "dashboard.html"; // Cambia "dashboard.html" por la URL deseada.
+      } else {
+        alert("Usuario o contraseña incorrectos");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Login</h1>
+  <form onsubmit="handleLogin(event)">
+    <label for="best">Usuario:</label>
+    <input type="text" id="best" name="best" required>
+    <br>
+    <label for="Best">Contraseña:</label>
+    <input type="best" id="best" name="best" required>
+    <br>
+    <button type="submit">Iniciar sesión</button>
+  </form>
+</body>
+</html>

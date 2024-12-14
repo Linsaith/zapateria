@@ -1,0 +1,70 @@
+/* Estilo general para el carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Limita el tamaño máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+    overflow: hidden;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Ajustar las imágenes dentro del carrusel */
+.carousel-inner .carousel-item img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para los indicadores (los puntos abajo) */
+.carousel-indicators button {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de los puntos en estado inactivo */
+    border: none;
+    border-radius: 50%; /* Hace los puntos circulares */
+    width: 12px; /* Tamaño de los puntos */
+    height: 12px;
+    margin: 0 5px; /* Espaciado entre los puntos */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; /* Color de los puntos activos */
+}
+
+/* Estilo de hover en los puntos de los indicadores */
+.carousel-indicators button:hover {
+    background-color: #0056b3; /* Color cuando el cursor pasa por encima */
+}
+
+/* Estilo para los controles de navegación (previo y siguiente) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para los íconos de navegación */
+    border-radius: 50%; /* Hace que los íconos sean circulares */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo ligeramente oscuro para los botones */
+    color: white;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo más oscuro al pasar el cursor */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffffff; /* Color blanco para las flechas */
+}
+
+/* Estilo de los botones de navegación al hacer hover */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #007bff; /* Color azul cuando se pasa el cursor sobre las flechas */
+}
+
+/* Sombra en el carrusel */
+.carousel {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+}

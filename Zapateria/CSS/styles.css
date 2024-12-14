@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carrusel-container {
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrusel img {
+    width: 00px;
+    height: 400px;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-5%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 3px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}

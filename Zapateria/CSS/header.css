@@ -1,0 +1,27 @@
+/* Reset para márgenes y relleno */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro para la página */
+}
+
+/* Estilos del header */
+header {
+    width: 100%; /* Barra ancha que ocupa todo el ancho */
+    background-color: #dcdcdc; /* Color neutral (gris claro) */
+    text-align: center; /* Centra el texto */
+    padding: 90px 0; /* Relleno superior e inferior */
+}
+
+/* Estilos para el título dentro del header */
+header h1 {
+    font-size: 8rem; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Negrita */
+}

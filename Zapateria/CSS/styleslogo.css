@@ -1,0 +1,29 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra todo vertical y horizontalmente */
+    background-color: #f4f4f4; /* Fondo claro */
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    text-align: center;
+}
+
+/* Estilo para la imagen del logo */
+.logo {
+    width: 80px; /* Ajusta el tamaño del logo */
+    height: auto;
+    cursor: pointer; /* Cambia el cursor cuando se pasa sobre el logo */
+    transition: transform 0.3s ease; /* Efecto suave al hacer hover */
+}
+
+/* Efecto hover en el logo */
+.logo:hover {
+    transform: scale(1.6.); /* Aumenta el tamaño del logo cuando se pasa el cursor */
+}
